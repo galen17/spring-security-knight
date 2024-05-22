@@ -47,7 +47,7 @@
         <security:intercept-url pattern="/product/delete"
                                 access="hasRole('ROLE_ADMIN')"/>
 
-        <security:intercept-url pattern="/**" access="isFullyAuthenticated()"/>
+        <security:intercept-url pattern="/" access="isFullyAuthenticated()"/>
 
         <security:form-login login-page="/userLogin" login-processing-url="/securityLogin"
         default-target-url="/product/index"/>
