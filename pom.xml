@@ -25,6 +25,7 @@
   <modules>
     <module>spring-security-base</module>
     <module>spring-security-token-demo</module>
+      <module>spring-security-token-auth-demo</module>
   </modules>
 
   <dependencies>
