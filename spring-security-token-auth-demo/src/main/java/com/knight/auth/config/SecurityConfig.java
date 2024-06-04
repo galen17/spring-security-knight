@@ -62,6 +62,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.cors();
     }
 
+    /**
+     * 开启权限功能
+     * @return
+     * @throws Exception
+     */
     @Bean
     @Override
     public AuthenticationManager authenticationManagerBean() throws Exception {
